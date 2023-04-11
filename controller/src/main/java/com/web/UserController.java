@@ -22,6 +22,7 @@ public class UserController {
 
 
         List<Object> query = userService.query();
+        System.out.println();
         query.forEach((q)->{
             System.out.println(q);
         });
